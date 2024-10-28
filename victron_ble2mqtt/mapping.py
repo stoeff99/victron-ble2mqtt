@@ -16,6 +16,12 @@ VICTRON_VALUES = {
         state_class='measurement',
         unit='A',
     ),
+    'battery_temperature': HaValueInfo(
+        name='Battery',
+        device_class='temperature',
+        state_class='measurement',
+        unit='°C',
+    ),
     'battery_voltage': HaValueInfo(
         name='Battery',
         device_class='voltage',
